@@ -1,0 +1,83 @@
+body{
+    background-color: #FFEDD2;
+    font-family: 'IBM Plex Sans', sans-serif;
+}
+.contenedor{
+    display: flex;
+    background-color: white;
+    width: 486px;
+    height: 458px;
+    flex-direction: column;
+    margin: auto;
+    border-radius: 30px;
+    box-shadow: 0px 13px 19px 0px rgba(140,136,136,0.75);
+    -webkit-box-shadow: 0px 13px 19px 0px rgba(140,136,136,0.75);
+    -moz-box-shadow: 0px 13px 19px 0px rgba(140,136,136,0.75);
+}
+img{
+    width: 120px;
+    height: 120px;
+    align-self: center;
+    margin-top: 55px;
+    margin-bottom: 40px;
+    border-radius: 20px;
+    box-shadow: 0px 0px 18px 20px rgba(196,177,177,0.45);
+    -webkit-box-shadow: 0px 0px 18px 20px rgba(196,177,177,0.45);
+    -moz-box-shadow: 0px 0px 18px 20px rgba(196,177,177,0.45);
+    
+}
+.marca{
+    align-self: center;
+    letter-spacing: -1px;
+    text-align: center;
+    font-size: 1.5rem;
+    font-weight: 700;
+    margin:0;
+    padding: 0;
+    font-stretch:extra-condensed;
+}
+.parrafo{
+    display: flex;
+    flex-direction: column;
+    width: 280px;
+    text-align: center;
+    align-self: center;
+    margin-top: 12px;
+}
+.parrafo p{
+    margin: 1px;
+    font-size: 1rem;
+    font-weight: 600;
+}
+.botones{
+    display: flex;
+    width: 80%;
+    align-items: center;
+    margin: auto;
+    justify-content: space-between;
+
+}
+button{
+    width: 48%;
+    height: 55px;
+    border-radius: 60px;
+    border: none;
+}
+.botones a{
+    text-decoration: none;
+    color:black;
+    font-size: 18px;
+    font-weight: 600;
+    font-family: 'IBM Plex Sans', sans-serif;
+    
+}
+.enviar{
+    background-color: #FFEDD2;
+}
+.seguir{
+    background: rgb(250,57,103);
+    background: linear-gradient(90deg, rgba(250,57,103,1) 14%, rgba(250,150,57,1) 70%);
+}
+i{
+    margin-right: 15px;
+}
